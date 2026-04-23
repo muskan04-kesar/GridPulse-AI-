@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  --color-teal: #1D9E75;
+  --color-teal-light: #E1F5EE;
+  --color-teal-dark: #085041;
+  
+  --color-amber: #BA7517;
+  --color-amber-light: #FAEEDA;
+  
+  --color-red: #E24B4A;
+  --color-red-light: #FCEBEB;
+  
+  --color-blue: #378ADD;
+  --color-blue-light: #E6F1FB;
+}
+
+@layer base {
+  body {
+    background-color: #F8FAFC;
+    color: #333333;
+    font-family: var(--font-sans);
+  }
+}
